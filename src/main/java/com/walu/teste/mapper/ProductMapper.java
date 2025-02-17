@@ -16,7 +16,7 @@ public class ProductMapper {
         dto.setQuantity(product.getQuantity());
         return dto;
     }
-
+    /* Não usado por enquanto
     public static Product toEntity(ProductDto dto) {
         Product product = new Product();
         product.setId(dto.getId());
@@ -25,6 +25,7 @@ public class ProductMapper {
         product.setQuantity(dto.getQuantity());
         return product;
     }
+    */
     //Polimorfismo para o método toEntity
     public static Product toEntity(ProductCreateDto dto) {
         Product product = new Product();

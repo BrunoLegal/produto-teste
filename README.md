@@ -3,4 +3,4 @@ Pequeno projeto teste de um sistema para gerenciar produtos
 
 INSTRUÇÕES:
 
-1. DATABASE: na raiz do projeto, rodar ```docker-compose up -d```
+1. DATABASE: _src/main/resources_ , rodar ```docker-compose up -d```
